@@ -8,7 +8,7 @@ google-nlp-api\
 html\
 python\
 sass\
-word2vec\
+word2vec
 
 HOW TO RUN:
 
