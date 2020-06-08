@@ -14,7 +14,5 @@ word2vec
 HOW TO RUN:
 
 download GooogleImageVector Add it
-
 download libraries
-
 run my1.py
