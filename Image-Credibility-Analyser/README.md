@@ -12,6 +12,9 @@ sass
 word2vec
 
 HOW TO RUN:
+
 download GooogleImageVector Add it
-downlad libraries
+
+download libraries
+
 run my1.py
