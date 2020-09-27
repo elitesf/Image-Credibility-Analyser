@@ -69,37 +69,7 @@ credible = ['investopedia','timesofindia.indiatimes','indianexpress.','indiatoda
 
 # credible = ['economictimes.', 'huffingtonpost.', 'theprint.', 'thelogicalindian.', 'thequint.', 'altnews.', 'wsj.', 'nypost.', 'nytimes.', 'bbc.', 'reuters.', 'economist.', 'pbs.', 'aljazeera.', 'thewire.', 'theatlantic.', 'theguardian.', 'edition.cnn',
 #             'cnbc.', 'scroll.in', 'financialexpress.', 'npr.', 'usatoday.', 'snopes.', 'politifact.','hindustantimes','thehindu','timesofindia','cnn.']
-# Function for entity analysis of the titles
-def entity_sentiment_text(text):
-    """Detects entity sentiment in the provided text."""
-    client = language.LanguageServiceClient()
 
-    if isinstance(text, six.binary_type):
-        text = text.decode('utf-8')
-
-    document = types.Document(
-        content=text.encode('utf-8'),
-        type=enums.Document.Type.PLAIN_TEXT)
-
-    # Detect and send native Python encoding to receive correct word offsets.
-    encoding = enums.EncodingType.UTF32
-    if sys.maxunicode == 65535:
-        encoding = enums.EncodingType.UTF16
-
-    result = client.analyze_entity_sentiment(document, encoding)
-
-    for entity in result.entities:
-        print('Mentions: ')
-        print(u'Name: "{}"'.format(entity.name))
-        for mention in entity.mentions:
-            print(u'  Begin Offset : {}'.format(mention.text.begin_offset))
-            print(u'  Content : {}'.format(mention.text.content))
-            print(u'  Magnitude : {}'.format(mention.sentiment.magnitude))
-            print(u'  Sentiment : {}'.format(mention.sentiment.score))
-            print(u'  Type : {}'.format(mention.type))
-        print(u'Salience: {}'.format(entity.salience))
-        print(u'Sentiment: {}\n'.format(entity.sentiment))
-        print("--------------------------------------------------------------------------------")
 
 
 #Function for google's clous vision API
@@ -161,7 +131,9 @@ def detect_web(path):
     # for i in list: 
     #     print(i) 
     return(list)
+
 #---------------------#--------------------#---------------------#--------------------#
+
 #Function to check which URLs belong to credible news sources
 def credible_list(list_of_page_urls):
 
@@ -189,6 +161,7 @@ def credible_list(list_of_page_urls):
         exit(1)
     return(c_list)
 #---------------------#--------------------#---------------------#--------------------#
+
 #Function to scrape titles off the given URLs
 def titles(credible_from_url_list):
 
@@ -204,6 +177,7 @@ def titles(credible_from_url_list):
     return(title_list)
 
 #---------------------#--------------------#---------------------#--------------------#
+
 #Function to print the scraped titles
 def print_article_title(title_list):
     print("Credible article titles which use the same image: ")
@@ -214,6 +188,7 @@ def print_article_title(title_list):
         print(title)
         print("--------------------------------------------------------------------------------")
 #---------------------#--------------------#---------------------#--------------------#
+
 #Function to call google's language API for entity analysis
 def entity_analysis(title_list):
     for title in title_list:
@@ -222,6 +197,7 @@ def entity_analysis(title_list):
 
 #---------------------#--------------------#---------------------#--------------------#
 #Function to compute the WM distances between titles and associated title and the average distance
+
 def wmdist(title_list):
     print("Word Mover's Distance for Titles:")
     print("--------------------------------------------------------------------------------")
@@ -272,6 +248,8 @@ def wmdist(title_list):
 #     print(avg_dist)
 #     return(avg_dist)
 #---------------------#--------------------#---------------------#--------------------#
+
+
 #Function to decide whether human verification is required
 def human_ver(avg_dist):
     # print(100.0*avg_dist);
@@ -298,7 +276,6 @@ def main():
     title_list = titles(credible_from_url_list)
     print_article_title(title_list)
     # print("LEN: ",len(title_list))
-    entity_analysis(title_list)
     # print("WM")
     avg_dist = wmdist(title_list)
     human_ver(avg_dist)
