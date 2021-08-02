@@ -1,0 +1,155 @@
+-------------------------------------------------------------
+-------------------FAKE IMAGE ANALYZER-----------------------
+----------------------------FIA------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+DONE
+Given Title rahul gandhi watch sexy image
+IMAGE:  rahul.jpg
+
+Best guess for the image: rahul gandhi porn
+--------------------------------------------------------------------------------
+
+10 Pages with matching images found:
+
+	Page url   : https://smhoaxslayer.com/did-rahul-gandhi-see-porn-on-mobile/
+
+	Page url   : http://www.socialhoax.com/did-rahul-gandhi-see-porn-on-mobile/
+
+	Page url   : http://www.hoaxorfact.com/politics/rahul-gandhi-watching-porn-on-his-smartphone.html
+
+	Page url   : http://newsmobile.in/articles/2018/08/01/raga-was-not-watching-porn-on-his-phone/
+
+	Page url   : https://www.factcrescendo.com/breaking-news-rahul-gandhis-pliable-controversy/
+
+	Page url   : https://www.latestly.com/social-viral/rahul-gandhi-watching-porn-movie-on-his-mobile-phone-is-fake-see-the-original-image-299954.html
+
+	Page url   : https://smhoaxslayer.blogspot.com/2018/08/did-rahul-gandhi-see-porn-on-mobile-sm.html
+
+	Page url   : https://www.factcrescendo.com/fact-check-viral-image-of-grandmother-granddaughter-picture-going-viral/
+
+	Page url   : http://www.hoaxorfact.com/politics/rahul-gandhi-watching-porn-on-his-smartphone.html/attachment/rahul-gandhi-watching-porn-on-his-smartphone2
+
+	Page url   : https://www.altnews.in/fake-photo-of-rahul-gandhi-checking-out-images-of-scantily-clad-women-on-his-phone/
+
+4 Web entities found in the image: 
+
+	Score      : 0.7099999785423279
+	Description: 
+
+	Score      : 0.47749999165534973
+	Description: 
+
+	Score      : 0.41929998993873596
+	Description: Politics
+
+	Score      : 0.3831000030040741
+	Description: Mobile phone
+
+3 visually similar images found:
+
+	Image url    : https://i1.wp.com/www.hoaxorfact.com/wp-content/uploads/2018/08/Rahul-Gandhi-Watching-Porn-on-His-Smartphone.jpg?fit=729%2C611
+	Image url    : http://www.smbewafahai.com/wp-content/uploads/2018/07/Capture1111-512x380.jpg
+	Image url    : https://pbs.twimg.com/profile_images/875412767750012928/8hpzcC36_400x400.jpg
+--------------------------------------------------------------------------------
+PRINTING COMPLETE LIST=============
+https://smhoaxslayer.com/did-rahul-gandhi-see-porn-on-mobile/
+http://www.socialhoax.com/did-rahul-gandhi-see-porn-on-mobile/
+http://www.hoaxorfact.com/politics/rahul-gandhi-watching-porn-on-his-smartphone.html
+http://newsmobile.in/articles/2018/08/01/raga-was-not-watching-porn-on-his-phone/
+https://www.factcrescendo.com/breaking-news-rahul-gandhis-pliable-controversy/
+https://www.latestly.com/social-viral/rahul-gandhi-watching-porn-movie-on-his-mobile-phone-is-fake-see-the-original-image-299954.html
+https://smhoaxslayer.blogspot.com/2018/08/did-rahul-gandhi-see-porn-on-mobile-sm.html
+https://www.factcrescendo.com/fact-check-viral-image-of-grandmother-granddaughter-picture-going-viral/
+http://www.hoaxorfact.com/politics/rahul-gandhi-watching-porn-on-his-smartphone.html/attachment/rahul-gandhi-watching-porn-on-his-smartphone2
+https://www.altnews.in/fake-photo-of-rahul-gandhi-checking-out-images-of-scantily-clad-women-on-his-phone/
+Credible article titles which use the same image: 
+--------------------------------------------------------------------------------
+Fake: Photo of Rahul Gandhi checking out images of scantily clad women on his phone - Alt News
+--------------------------------------------------------------------------------
+Mentions: 
+Name: "Fake"
+  Begin Offset : 0
+  Content : Fake
+  Magnitude : 0.8999999761581421
+  Sentiment : -0.8999999761581421
+  Type : 2
+Salience: 0.3093096911907196
+Sentiment: magnitude: 0.8999999761581421
+score: -0.8999999761581421
+
+
+--------------------------------------------------------------------------------
+Mentions: 
+Name: "Photo"
+  Begin Offset : 6
+  Content : Photo
+  Magnitude : 0.8999999761581421
+  Sentiment : -0.8999999761581421
+  Type : 2
+Salience: 0.3093096911907196
+Sentiment: magnitude: 0.8999999761581421
+score: -0.8999999761581421
+
+
+--------------------------------------------------------------------------------
+Mentions: 
+Name: "Rahul Gandhi"
+  Begin Offset : 15
+  Content : Rahul Gandhi
+  Magnitude : 0.30000001192092896
+  Sentiment : -0.30000001192092896
+  Type : 1
+Salience: 0.24185000360012054
+Sentiment: magnitude: 0.6000000238418579
+score: -0.30000001192092896
+
+
+--------------------------------------------------------------------------------
+Mentions: 
+Name: "images"
+  Begin Offset : 41
+  Content : images
+  Magnitude : 0.10000000149011612
+  Sentiment : -0.10000000149011612
+  Type : 2
+Salience: 0.08129369467496872
+Sentiment: magnitude: 0.10000000149011612
+score: -0.10000000149011612
+
+
+--------------------------------------------------------------------------------
+Mentions: 
+Name: "women"
+  Begin Offset : 65
+  Content : women
+  Magnitude : 0.0
+  Sentiment : 0.0
+  Type : 2
+Salience: 0.029950961470603943
+Sentiment: 
+
+--------------------------------------------------------------------------------
+Mentions: 
+Name: "Alt News"
+  Begin Offset : 86
+  Content : Alt News
+  Magnitude : 0.10000000149011612
+  Sentiment : -0.10000000149011612
+  Type : 1
+Salience: 0.02828596532344818
+Sentiment: magnitude: 0.10000000149011612
+score: -0.10000000149011612
+
+
+--------------------------------------------------------------------------------
+WM
+Word Mover's Distance for Titles:
+--------------------------------------------------------------------------------
+distance = 0.997
+--------------------------------------------------------------------------------
+Average Distance: 0.996921461217891
+--------------------------------------------------------------------------------
+The title associated with this image seems to be right. Human verification is NOT required.
+--------------------------------------------------------------------------------
+WM END
